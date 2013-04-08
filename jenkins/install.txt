@@ -1,0 +1,4 @@
+charset,utf-8
+type,ghost
+name,Jenkins
+directory,Jenkins

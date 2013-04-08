@@ -1,0 +1,7 @@
+NOTIFY SSTP/1.1
+Charset: UTF-8
+Sender: Jenkins-Server
+Event: OnBuildFailed2
+IfGhost: Jenkins,Hudson
+Script: \0\v\s4\f[height,36]‥‥ビルドに失敗しました。\w5\w5\s7\![move,300,0,1000,me]\![move,-300,0,1000,me]\s0\e
+

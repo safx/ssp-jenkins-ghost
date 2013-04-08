@@ -1,0 +1,7 @@
+NOTIFY SSTP/1.1
+Charset: UTF-8
+Sender: Jenkins-Server
+Event: OnBuildFailed
+IfGhost: Jenkins,Hudson
+Script: \0\v‥‥\w8\w8ビルドに失敗しました。\1\_a[http://127.0.0.1/jobs/foobar]なんとかしろ\_a\e
+

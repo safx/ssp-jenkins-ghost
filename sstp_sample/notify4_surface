@@ -1,0 +1,9 @@
+NOTIFY SSTP/1.1
+Charset: UTF-8
+Sender: Jenkins-Server
+Event: OnBuildFailed2
+IfGhost: Jenkins
+Script: \0\v\s4‥‥\w8\w8ビルドに失敗しました。\n\n\q[今すぐ直す,#now]\n\q[後で,#later]
+Entry: #now,\0\s0お願いします。\e
+Entry: #later,\0\s7早く直してください。\e
+
